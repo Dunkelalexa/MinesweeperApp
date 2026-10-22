@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Minesweeper-Alexandra</title>
+    <link rel="stylesheet" href="css/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+15&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- header -->
+    <header>
+        <h1>MINESWEEPER</h1>
+    </header>
+
+    <!-- div #container -->
+    <div id="container">
+
+        <!-- sidebar -->
+        <aside>
+            <p>
+                The board is divided into cells, with mines randomly distributed. To win, you need to open all the cells.
+                The number on a cell shows the number of mines adjacent to it. Using this information, you can determine cells that are safe, and cells that contain mines.
+                Cells suspected of being mines can be marked with a flag using the right mouse button .<br /><br />To start a new game, you can click on the happy face at the top of the board or use the space bar.
+                The remaining number of mines is displayed in the left corner, and the game timer is displayed in the right corner.
+            </p>
+        </aside>
+
+        <!-- main -->
+        <div style="flex: 2; display: flex; flex-direction: column; gap: 20px;">
+
+            <!-- game board div -->
+            <main>
+                <div id="game-container"></div>
+            </main>
+
+            <!-- buttons -->
+            <div id="btn">
+                <nav class="difficulty-buttons">
+                    <button data-difficulty="beginner">[ BEGINNER ]</button>
+                    <button data-difficulty="intermediate">[ INTERMEDIATE ]</button>
+                    <button data-difficulty="expert">[ EXPERT ]</button>
+                </nav>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- footer -->
+    <footer>
+        &copy; All rights reserved
+    </footer>
+    <dialog id="gameDialog">
+        <p id="endMessage" class="game-message"></p>
+        <button id="closeDialog">OK</button>
+    </dialog>
+
+    <script type="module" src="scripts/main.js"></script>
+</body>
+</html>
