@@ -14,7 +14,7 @@ https://github.com/Dunkelalexa/MinesweeperApp.git
    - The first click is never a bomb.
    - If the cell has no bombs around it, the empty area around it opens automatically.
 2.**Right click** on a cell to place or remove a flag. The counter on the top left shows how many flags ypu have left.
-3. if you open a bomb: all bombs are shown and a popup says "Game over".
+3. if you open a bomb, you lose and all bombs are shown and a popup says "Game over".
 4. when every cell without a bomb is open you win.
 5. Click on the **smiley face** to start a new game.
 
