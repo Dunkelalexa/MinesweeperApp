@@ -26,4 +26,4 @@ The smiley face starts a new game by reloading the page, so everytime goes back 
 The flag counter does not show negative numbers correctly.
 
 ## Things that not work
-**Timer:** not implemented. The time display always shows `000`
+**Timer:** not implemented. The time display always shows 000
