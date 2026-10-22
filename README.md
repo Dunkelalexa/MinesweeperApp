@@ -22,7 +22,6 @@ https://github.com/Dunkelalexa/MinesweeperApp.git
 ## Caveats
 The smiley face starts a new game by reloading the page, so everytime goes back to Beginner because the index.
 The flag counter does not show negative numbers correctly.
-The Expert board is about 960 px wide, so on small screens you need to scroll sideways.
 
 ## Things that not work
 **Timer:** not implemented. The time display always shows `000`
